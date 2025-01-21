@@ -2,5 +2,5 @@ namespace HilosParaTodos;
 
 public class MyEvents
 {
-    public static Action finalizar;
+    //public static Action finalizar;
 }

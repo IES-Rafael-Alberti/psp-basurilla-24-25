@@ -12,5 +12,6 @@ Global
 		{3A07A3FA-3045-4296-AFA4-45AE22B95EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A07A3FA-3045-4296-AFA4-45AE22B95EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A07A3FA-3045-4296-AFA4-45AE22B95EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A07A3FA-3045-4296-AFA4-45AE22B95EFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

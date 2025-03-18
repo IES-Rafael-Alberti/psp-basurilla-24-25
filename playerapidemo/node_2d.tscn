@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://5xet2faobhs7"]
+
+[ext_resource type="Script" path="res://playerapi.gd" id="1_cbnhu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_cbnhu")
+
+[node name="HTTPRequestPOST" type="HTTPRequest" parent="."]
+
+[node name="HTTPRequestGET" type="HTTPRequest" parent="."]

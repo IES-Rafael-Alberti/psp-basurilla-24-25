@@ -82,6 +82,12 @@ namespace nthAPIWeb.Controllers
 
             return CreatedAtAction("GetPlayer", new { id = player.Id }, player);
         }
+        
+        [HttpGet("best")]
+        public async Task<ActionResult<IEnumerable<Player>>> GetBestPlayers()
+        {
+            return await _context.Players.OrderBy(player => -player.MaxScore).Take(2).ToListAsync();
+        }
 
         // DELETE: api/Players/5
         [HttpDelete("{id}")]

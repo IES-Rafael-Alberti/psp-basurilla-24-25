@@ -1,4 +1,5 @@
-﻿using HilosParaTodos;
+﻿/*
+using HilosParaTodos;
 
 //MyEvents.finalizar = () => { Console.WriteLine("Suscriptor A"); };
 //MyEvents.finalizar += () => { Console.WriteLine("Suscriptor B"); };
@@ -13,3 +14,4 @@ finalEvent.FinishAction += () => { Console.WriteLine("Suscriptor C"); };
 
 t1.Start();
 t2.Start();
+*/
